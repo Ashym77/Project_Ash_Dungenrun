@@ -1,6 +1,8 @@
 package Com.Ash.Project;
 
 
+import Com.Ash.Project.ICombat;
+
 public class Monster implements ICombat {
 
 
@@ -75,6 +77,7 @@ public class Monster implements ICombat {
         int damage = (getStrenght() + getBasedamage());
         return damage;
     }
+
 
     @Override
     public String toString() {
